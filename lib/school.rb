@@ -22,6 +22,8 @@ class School
             new[num] = roster[num]
             new[num]= new[num].sort
         end
-        new
+        @roster = new
+        roster
     end
+
 end
